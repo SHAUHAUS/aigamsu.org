@@ -7,7 +7,7 @@ let img, img2, img3;
 function preload(){
 	img = loadImage('https://i.imgur.com/IuvSmi3.png');
 	img2 = loadImage('https://i.imgur.com/O0AMB01.png');
-	img3 = loadImage('https://i.imgur.com/Tu6FU7Y.png');
+	// img3 = loadImage('data/LOGO_HORIZONTAL.svg');
 }
 
 function setup() {
@@ -25,12 +25,12 @@ function setup() {
 	
 	img.resize(width, height);
 	img2.resize(width, height);
-	img3.resize(width/2, 0);
+	// img3.resize(width/2, 0);
 
 
 	image(img2, width/2, height/2);
 	image(img, width/2, height/2);
-	image(img3, width/2, height/2);
+	// image(img3, width/2, height/2);
 
 	// copy(img2, mouseX, mouseY, 50, 50, mouseX, mouseY, 50, 50);
 	

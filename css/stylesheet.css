@@ -15,6 +15,7 @@ body{
 	/*overflow-y: hidden;*/
 	padding: 0%;
 	background-color: #FCF9F1;
+	background-image: url(data/LOGO_HORIZONTAL.svg);
 	/*cursor: pointer;*/
 	/*cursor: url(../data/assets/cursor-01.png), auto !important;*/
 }
@@ -38,11 +39,12 @@ h2{
 }
 
 h3{
-	text-align: center;
+	text-align: left;
 	font-family: 'Libre Baskerville', serif;
-	color: #141414;
-	font-size: 40px;
-	/*font-weight: 200;*/
+	font-style: italic;
+	color: #00CC89;
+	font-size: 50px;
+	margin: 10px;
 	position: relative;
 }
 
@@ -51,26 +53,25 @@ p{
 	text-align: left;
 	/*text-justify: inter-word;*/
 	font-family: 'Libre Baskerville', serif;
-	color: #141414;
+	color: #00CC89;
 	font-size: 15px;
 	position: relative;
-	padding-left: 1%;
-	padding-right: 1%;
 }
 
 
 a.nav{
-	text-align: center;
+	display: block;
+	/*text-align: justify;*/
 	font-family: 'Libre Baskerville', serif;
-	font-size: 50px;
+	font-size: 3vw;
+	font-style: italic;
 	color: #FCF9F1;
-	text-decoration: none;
 	margin: auto;
 }
 
 a.nav:hover{
-	font-style: italic;
-	color: #00CC89;
+	font-style: normal;
+	color: #FF45CA;
 }
 
 
@@ -128,7 +129,7 @@ iframe{
 }
 
 ::-webkit-scrollbar-thumb {
-	background: rgb(150, 150, 255);
+	background: #00CC89;
 
 }
 
@@ -140,7 +141,7 @@ iframe{
 
 .contFrame{
 	position: fixed;
-	overflow: hidden;
+	overflow: scroll;
 	top: 10vh;
   	left: 0;
   	bottom: 10vh;
@@ -148,6 +149,10 @@ iframe{
 	width: 100vw;
 	height: 80vh;
 	border-style: none;
+	/*pointer-events: none;*/
+	 -webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
 }
 
 .header, .footer{
@@ -168,10 +173,14 @@ iframe{
 }
 
 .nav1, .nav2, .nav3, .nav4{
+	display: block;
 	position: fixed;
 	width: 25vw;
 	height: 10vh;
 	min-height: 50px;
+	margin: auto;
+	text-align: left;
+	overflow: hidden;
 
 }
 
@@ -219,5 +228,18 @@ iframe{
 	left: 25vw;
 
 }
+
+/* /////////////////// MEDIUM SCREEN  ////////////////////// */
+
+@media screen and (max-width:  1200px){
+
+h3{
+	text-align: left;
+	font-size: 35px;
+}
+
+
+}
+
 
 
