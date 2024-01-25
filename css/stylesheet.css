@@ -22,7 +22,8 @@ body{
 
 h1{
 	text-align: left;
-	font-family: 'Libre Baskerville', serif;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
 	color: #141414;
 	font-size: 20px;
 	position: relative;
@@ -31,7 +32,8 @@ h1{
 
 h2{
 	text-align: left;
-	font-family: 'Libre Baskerville', serif;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
 	color: #141414;
 	/*background-color: rgb(150, 150, 255);*/
 	font-size: 30px;
@@ -40,8 +42,9 @@ h2{
 
 h3{
 	text-align: left;
-	font-family: 'Libre Baskerville', serif;
-	font-style: italic;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
+	/*font-style: italic;*/
 	color: #00CC89;
 	font-size: 50px;
 	margin: 10px;
@@ -52,7 +55,8 @@ h3{
 p{
 	text-align: left;
 	/*text-justify: inter-word;*/
-	font-family: 'Libre Baskerville', serif;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
 	color: #00CC89;
 	font-size: 15px;
 	position: relative;
@@ -62,7 +66,8 @@ p{
 a.nav{
 	display: block;
 	/*text-align: justify;*/
-	font-family: 'Libre Baskerville', serif;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
 	font-size: 3vw;
 	font-style: italic;
 	color: #FCF9F1;
@@ -99,7 +104,8 @@ marquee.inline{
 	color: #ffffff;
 	font-size: 50px;
 	text-align: left;
-	font-family: 'Libre Baskerville', serif;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 54;
 	width: 100%;
 }
 
