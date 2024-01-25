@@ -8,7 +8,6 @@ html{
 	/*cursor: url(../data/assets/cursor-01.png), auto !important;*/
 }
 
-
 body{
 	margin: 0;
 	overflow: hidden;
@@ -43,7 +42,7 @@ h2{
 h3{
 	text-align: left;
 	font-family: "june-expt-variable",sans-serif;
-    font-variation-settings: 'STYL' 54;
+    font-variation-settings: 'STYL' 0;
 	/*font-style: italic;*/
 	color: #00CC89;
 	font-size: 50px;
@@ -77,6 +76,10 @@ a.nav{
 a.nav:hover{
 	font-style: normal;
 	color: #FF45CA;
+}
+
+a:hover{
+	font-style: italic;
 }
 
 
