@@ -11,7 +11,7 @@ let glitch;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(0);
+	background(250);
 	imageMode(CENTER);
 
 	glitch = new Glitch();
