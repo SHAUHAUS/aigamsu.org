@@ -14,6 +14,8 @@ function setup() {
 	background(250);
 	imageMode(CENTER);
 
+	frameRate(10);
+
 	glitch = new Glitch();
 	loadImage('https://raw.githubusercontent.com/SHAUHAUS/aigamsu.org/main/data/inverse_grad.png', function(im){
 		glitch.loadImage(im);

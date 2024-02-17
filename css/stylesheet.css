@@ -162,11 +162,13 @@ iframe{
 .contFrame{
 	position: fixed;
 	overflow: scroll;
+	padding-left: 100px;
+	padding-right: 100px;
 	top: 10vh;
   	left: 0;
   	bottom: 10vh;
   	right: 0;
-	width: 100vw;
+	width: auto;
 	height: 80vh;
 	border-style: none;
 	/*pointer-events: none;*/
@@ -256,6 +258,10 @@ iframe{
 h3{
 	text-align: left;
 	font-size: 35px;
+}
+
+.contFrame{
+	padding: 0;
 }
 
 
