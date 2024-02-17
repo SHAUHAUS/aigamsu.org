@@ -262,6 +262,8 @@ h3{
 
 .contFrame{
 	padding: 0;
+	top: 50px;
+	bottom: 50px;
 }
 
 
