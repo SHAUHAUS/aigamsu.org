@@ -172,9 +172,15 @@ iframe{
 	height: 80vh;
 	border-style: none;
 	/*pointer-events: none;*/
-	 -webkit-user-select: none; /* Safari */
+	-webkit-user-select: none; /* Safari */
   	-ms-user-select: none; /* IE 10 and IE 11 */
   	user-select: none; /* Standard syntax */
+}
+
+.nav_img{
+	display: block;
+	margin: auto;
+	height: 10vh;
 }
 
 .header, .footer{
@@ -264,6 +270,15 @@ h3{
 	padding: 0;
 	top: 50px;
 	bottom: 50px;
+	height: auto;
+}
+
+.nav_img{
+	height: 50px;
+}
+
+.banner-top, .banner-bottom, .nav1, .nav2, .nav3, .nav4, .header, .footer{
+	height: 50px;
 }
 
 
