@@ -143,8 +143,9 @@ iframe{
 }*/
 
 ::-webkit-scrollbar {
-	/*width: 5px;*/
-	display: none;
+	width: 10px;
+	height: 10px;
+	/*display: none;*/
 
 }
 
@@ -257,6 +258,34 @@ iframe{
 
 }
 
+.imageScroll{
+	/*height: 60vw;*/
+	display: flex;
+	overflow-x: auto;
+	overflow-y: scroll;
+	/*height: 50vh;*/
+	width: auto;
+
+}
+
+.imageScroll::-webkit-scrollbar {
+	/*width: 25px;*/
+	height: 20px;
+
+}
+
+.imageScroll::-webkit-scrollbar-thumb {
+	background: #00CC89;
+
+}
+
+.scrollImg{
+	width: auto;
+	/*max-height: 60vh;*/
+	height: auto;
+	text-align: center;
+}
+
 /* /////////////////// MEDIUM SCREEN  ////////////////////// */
 
 @media screen and (max-width:  1200px){
@@ -296,6 +325,11 @@ h3{
 h2{
 	padding-left: 0;
 	font-size: 20px;
+}
+
+img{
+	width: 100vw;
+	height: auto;
 }
 
 
