@@ -32,5 +32,5 @@ function draw() {
 
 	glitch.buildImage();
     // glitch.image.resize(0, mouseX);
-	image(glitch.image, width/2, height/2, width, height)
+	image(glitch.image, width/2, height/2, width, height);
 }
