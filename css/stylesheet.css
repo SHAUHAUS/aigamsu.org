@@ -163,14 +163,14 @@ iframe{
 .contFrame{
 	position: fixed;
 	overflow: scroll;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	top: 10vh;
   	left: 0;
   	bottom: 10vh;
   	right: 0;
 	width: auto;
-	height: 80vh;
+	height: 82vh;
 	border-style: none;
 	/*pointer-events: none;*/
 	-webkit-user-select: none; /* Safari */
