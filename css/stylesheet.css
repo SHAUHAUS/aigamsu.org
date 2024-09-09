@@ -304,6 +304,8 @@ h3{
 
 .nav_img{
 	height: 50px;
+	left: auto;
+	right: auto;
 }
 
 .banner-top, .banner-bottom, .nav1, .nav2, .nav3, .nav4, .header, .footer{
@@ -329,6 +331,11 @@ h2{
 
 img{
 	width: 100vw;
+	height: auto;
+}
+
+.nav_img{
+	width: 100px;
 	height: auto;
 }
 
