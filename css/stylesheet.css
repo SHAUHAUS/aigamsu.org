@@ -33,7 +33,7 @@ h2{
 	text-align: left;
 	font-family: "june-expt-variable",sans-serif;
     font-variation-settings: 'STYL' 0;
-	color: #141414;
+	color: #00CC89;
 	line-height: 1.2;
 	margin: 10px;
 	padding-left: 35vw;
@@ -47,11 +47,23 @@ h3{
 	font-family: "june-expt-variable",sans-serif;
     font-variation-settings: 'STYL' 0;
 	/*font-style: italic;*/
+	line-height: 1.2;
 	color: #00CC89;
 	font-size: 50px;
 	margin: 10px;
 	position: relative;
 }
+
+h4{
+	text-align: center;
+	font-family: "june-expt-variable",sans-serif;
+    font-variation-settings: 'STYL' 0;
+	color: #FCF9F1;
+	margin: 10px;
+	font-size: 25px;
+	position: relative;
+}
+
 
 
 p{
@@ -77,7 +89,7 @@ a.nav{
 }
 
 a{
-	color: #0F6CEB;
+	color: #00CC89;
 }
 
 a.nav:hover{
@@ -177,6 +189,20 @@ iframe{
   	-ms-user-select: none; /* IE 10 and IE 11 */
   	user-select: none; /* Standard syntax */
 }
+
+.pagePost{
+	position: relative;
+	width: auto;
+	height: auto;
+	min-height: 200px;
+	border-style: solid;
+	border-color: #00CC89;
+	border-radius: 0 0 40px 40px;
+}
+
+/*.pagePost:hover{
+	background-color: #FF45CA;
+}*/
 
 .nav_img{
 	display: block;
