@@ -195,6 +195,7 @@ iframe{
 	width: auto;
 	height: auto;
 	min-height: 200px;
+	background-color: #FCF9F1;
 	border-style: solid;
 	border-color: #00CC89;
 	border-radius: 0 0 40px 40px;
@@ -321,6 +322,10 @@ h3{
 	font-size: 35px;
 }
 
+h4{
+	font-size: 20px;
+}
+
 .contFrame{
 	padding: 0;
 	top: 50px;
@@ -347,7 +352,7 @@ h3{
 
 h3{
 	text-align: left;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 h2{
